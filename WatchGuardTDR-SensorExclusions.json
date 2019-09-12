@@ -1,54 +1,102 @@
 {
-  "version": 1,
-  "createdDate": 1567477257304,
-  "exclusions": [
-    {
-      "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\","excludeSubfolders":true,"excludeType":"FILES_AND_PROCESSES","excludeProcesses":true,"excludeFiles":true,"groupTargets":[{"name":"Workstations"}]},{"path":"C: \\Program Files\\webroot\\",
-      "excludeSubfolders": true,
-      "excludeType": "FILES_AND_PROCESSES",
-      "excludeProcesses": true,
-      "excludeFiles": true,
-      "groupTargets": [
+    "version": 1,
+    "createdDate": 1568262641298,
+    "exclusions": [
         {
-          "name": "Workstations"
-        }
-      ]
-    },
-    {
-      "path": "C:\\Program Files(x86)\\webroot\\","excludeSubfolders":true,"excludeType":"FILES_AND_PROCESSES","excludeProcesses":true,"excludeFiles":true,"groupTargets":[{"name":"Workstations"}]},{"path":"C: \\ProgramData\\Microsoft\\Microsoft Antimalware\\",
-      "excludeSubfolders": true,
-      "excludeType": "FILES_AND_PROCESSES",
-      "excludeProcesses": true,
-      "excludeFiles": true,
-      "groupTargets": [
+            "path": "C:\\ProgramData\\Microsoft\\Windows Defender\\",
+            "excludeSubfolders": true,
+            "excludeType": "FILES_AND_PROCESSES",
+            "excludeProcesses": true,
+            "excludeFiles": true,
+            "groupTargets": [
+                {
+                    "name": "All Hosts"
+                }
+            ]
+        },
         {
-          "name": "Workstations"
-        }
-      ]
-    },
-    {
-      "path": "C:\\Program Files (x86)\\CentraStage",
-      "excludeSubfolders": false,
-      "excludeType": "FILES_AND_PROCESSES",
-      "excludeProcesses": true,
-      "excludeFiles": true,
-      "groupTargets": [
+            "path": "C: \\Program Files\\Webroot\\",
+            "excludeSubfolders": true,
+            "excludeType": "FILES_AND_PROCESSES",
+            "excludeProcesses": true,
+            "excludeFiles": true,
+            "groupTargets": [
+                {
+                    "name": "All Hosts"
+                }
+            ]
+        },
         {
-          "name": "Workstations"
-        }
-      ]
-    },
-    {
-      "path": "C:\\Program Files (x86)\\StorageCraft\\","excludeSubfolders":true,"excludeType":"FILES_AND_PROCESSES","excludeProcesses":true,"excludeFiles":true,"groupTargets":[{"name":"Workstations"}]},{"path":"C: \\Program Files (x86)\\Google\\Chrome\\",
-      "excludeSubfolders": true,
-      "excludeType": "FILES_AND_PROCESSES",
-      "excludeProcesses": true,
-      "excludeFiles": true,
-      "groupTargets": [
+            "path": "C:\\Program Files(x86)\\Webroot\\",
+            "excludeSubfolders": true,
+            "excludeType": "FILES_AND_PROCESSES",
+            "excludeProcesses": true,
+            "excludeFiles": true,
+            "groupTargets": [
+                {
+                    "name": "All Hosts"
+                }
+            ]
+        },
         {
-          "name": "Workstations"
+            "path": "C: \\ProgramData\\Microsoft\\Microsoft Antimalware\\",
+            "excludeSubfolders": true,
+            "excludeType": "FILES_AND_PROCESSES",
+            "excludeProcesses": true,
+            "excludeFiles": true,
+            "groupTargets": [
+                {
+                    "name": "All Hosts"
+                }
+            ]
+        },
+        {
+            "path": "C:\\Program Files (x86)\\CentraStage",
+            "excludeSubfolders": false,
+            "excludeType": "FILES_AND_PROCESSES",
+            "excludeProcesses": true,
+            "excludeFiles": true,
+            "groupTargets": [
+                {
+                    "name": "All Hosts"
+                }
+            ]
+        },
+        {
+            "path": "C:\\Program Files (x86)\\StorageCraft\\",
+            "excludeSubfolders": true,
+            "excludeType": "FILES_AND_PROCESSES",
+            "excludeProcesses": true,
+            "excludeFiles": true,
+            "groupTargets": [
+                {
+                    "name": "All Hosts"
+                }
+            ]
+        },
+        {
+            "path": "C: \\Program Files (x86)\\Google\\Chrome\\",
+            "excludeSubfolders": true,
+            "excludeType": "FILES_AND_PROCESSES",
+            "excludeProcesses": true,
+            "excludeFiles": true,
+            "groupTargets": [
+                {
+                    "name": "All Hosts"
+                }
+            ]
+        },
+        {
+            "path": "C:\\ProgramData\\chocolatey\\",
+            "excludeSubfolders": true,
+            "excludeType": "FILES_AND_PROCESSES",
+            "excludeProcesses": true,
+            "excludeFiles": true,
+            "groupTargets": [
+                {
+                    "name": "All Hosts"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
